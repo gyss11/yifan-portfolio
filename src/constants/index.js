@@ -10,7 +10,7 @@ export const callToAction = "#";
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "About Me",
   },
   {
     id: "coreProjects",
@@ -24,6 +24,10 @@ export const navLinks = [
     id: "changelog",
     title: "Changelog",
   },
+  {
+    id: "contact",
+    title: "Contact Me",
+  },
 ];
 
 export const socialMedia = [
@@ -35,7 +39,7 @@ export const socialMedia = [
 ];
 
 export const aboutMe = {
-  name: "毛逸凡 (Yifan)",
+  name: "毛逸凡 (Yifan Mao)",
   githubUsername: "",
   tagLine:
     "AI Product Manager | Data Analyst | Agent Builder",

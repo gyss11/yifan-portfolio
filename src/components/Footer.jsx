@@ -6,7 +6,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { RiWechatFill } from "react-icons/ri";
 
 const Footer = () => (
-  <footer id="contactMe" className="bg-gray-900 sm:px-16 px-6">
+  <footer id="contact" className="bg-gray-900 sm:px-16 px-6">
     <div
       className={`${layout.sectionReverse} xl:max-w-[1280px] w-full mx-auto gap-y-4`}
     >
@@ -55,7 +55,7 @@ const Footer = () => (
     </div>
     <div className="text-center font-poppins font-normal text-dimWhite text-xs sm:text-sm pb-4">
       <p>
-        Made with 💙 by 毛逸凡 (Yifan)
+        © 2026 Yifan Mao. All rights reserved.
       </p>
     </div>
   </footer>

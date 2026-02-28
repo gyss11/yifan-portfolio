@@ -61,7 +61,7 @@ const App = () => {
                 {/* About */}
                 <section id="about" className="sm:py-16 py-10">
                   <h1 className="font-poppins font-semibold ss:text-[55px] text-[45px] text-white ss:leading-[80px] leading-[80px]">
-                    About
+                    About Me
                   </h1>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
                     <div className="rounded-xl border border-gray-700/50 bg-[#1a1a2e]/80 px-6 py-6 hover:border-gray-600/70 transition-colors">
@@ -113,7 +113,7 @@ const App = () => {
                       92%+。
                     </p>
                     <div className="flex flex-wrap gap-3 mt-6">
-                      {["LangChain", "GPT-4 微调", "OpenSees", "Reflection Agent", "RAG"].map(
+                      {["LangChain", "Qwen-Coder 微调", "OpenSees", "Reflection Agent"].map(
                         (tag) => (
                           <span
                             key={tag}

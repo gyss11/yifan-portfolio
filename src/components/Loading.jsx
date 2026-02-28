@@ -1,12 +1,11 @@
 import styles from "../style";
 import { motion } from "framer-motion";
-import { parthmittal } from "../assets";
 
 const Loading = () => {
   return (
     <motion.div
       id="loading"
-      className={`w-[100vw] h-[100vh] flex "${styles.flexCenter}`}
+      className={`w-[100vw] h-[100vh] flex ${styles.flexCenter}`}
       initial={{ scale: 1.0, opacity: 0.25 }}
       animate={{ scale: 2.0, opacity: 0.8 }}
       exit={{ opacity: 0, transition: { duration: 0.3, ease: "easeOut" } }}
@@ -15,7 +14,14 @@ const Loading = () => {
         ease: [0.25, 0.1, 0.25, 1.0],
       }}
     >
-      <img src={parthmittal} alt="Parth Mittal" className="w-[80px] h-[80px]" />
+      <div className="flex flex-col items-center text-center">
+        <span className="font-poppins font-bold text-white text-[20px] leading-tight">
+          毛逸凡
+        </span>
+        <span className="font-poppins font-medium text-gradient text-[14px] mt-1">
+          Yifan Mao
+        </span>
+      </div>
     </motion.div>
   );
 };
