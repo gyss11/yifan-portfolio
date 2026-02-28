@@ -95,7 +95,7 @@ const Hero = () => {
             >
               查看核心项目
             </button>
-            <a href="#" className="py-3 px-6 border border-teal-200 font-poppins font-medium text-[14px] text-teal-200 rounded hover:bg-teal-200 hover:text-primary transition-all">
+            <a href="/Yifan_Resume.pdf" download target="_blank" rel="noopener noreferrer" className="py-3 px-6 border border-teal-200 font-poppins font-medium text-[14px] text-teal-200 rounded hover:bg-teal-200 hover:text-primary transition-all">
               下载简历
             </a>
           </div>

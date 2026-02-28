@@ -1,7 +1,5 @@
 import {
   AiFillGithub,
-  AiFillLinkedin,
-  AiFillMail,
 } from "react-icons/ai";
 
 export const resumeLink = "#";
@@ -31,18 +29,8 @@ export const navLinks = [
 export const socialMedia = [
   {
     id: "social-media-1",
-    icon: AiFillLinkedin,
-    link: "#",
-  },
-  {
-    id: "social-media-2",
     icon: AiFillGithub,
-    link: "#",
-  },
-  {
-    id: "social-media-3",
-    icon: AiFillMail,
-    link: "mailto:your-email@example.com",
+    link: "https://github.com",
   },
 ];
 
