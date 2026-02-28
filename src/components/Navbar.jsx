@@ -31,7 +31,7 @@ const Navbar = () => {
       className="nav-styles sm:px-16 px-6"
     >
       <a href="#home" className="font-poppins font-bold text-[22px] text-white hover:text-teal-200 transition-colors">
-        Yifan.
+        Yifan Mao.
       </a>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1 p-4">

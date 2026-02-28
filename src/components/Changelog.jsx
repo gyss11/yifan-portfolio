@@ -17,7 +17,7 @@ const timelineData = [
     phase: "增量爆发期",
     title: "硬核业务的 UI 组件化",
     description:
-      "打破静态模板限制，利用自然语言引导大模型手写了动态模拟终端 (Agent Terminal) 与微调数据可视化看板 (Finetune Dashboard)，将复杂的 OpenSees 代码生成流程与评测指标直观呈现。",
+      "打破静态模板限制，利用自然语言引导大模型手写了动态模拟终端 (Agent Terminal) 与微调数据可视化看板 (Finetune Dashboard)，将复杂的“工程结构”建模代码生成流程与评测指标直观呈现。",
     tags: ["AI Coding", "数据可视化", "UX 设计"],
     color: "from-teal-400 to-emerald-500",
     dot: "bg-teal-400",

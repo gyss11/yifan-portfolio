@@ -107,8 +107,7 @@ const App = () => {
                       LangChain 驱动的自动化建模闭环
                     </p>
                     <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[28px]">
-                      基于大模型微调与 Agent 架构，实现从自然语言指令到 OpenSees
-                      结构建模代码的端到端自动生成。引入 Reflection
+                      基于大模型微调与 Agent 架构，实现从自然语言指令到“工程结构”建模代码的端到端自动生成。引入 Reflection
                       自修复机制和温度策略动态调节，将复杂工程建模任务的闭环成功率提升至
                       92%+。
                     </p>
