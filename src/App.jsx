@@ -9,6 +9,7 @@ import {
   Loading,
   AgentTerminal,
   FinetuneDashboard,
+  Changelog,
 } from "./components";
 
 const SectionPlaceholder = ({ id, title, children }) => (
@@ -114,11 +115,7 @@ const App = () => {
                 </SectionPlaceholder>
 
                 {/* Changelog */}
-                <SectionPlaceholder id="changelog" title="Changelog">
-                  <p className="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] max-w-[600px] mt-4">
-                    站点构建日志与版本更新记录。（v2.0 迭代填充）
-                  </p>
-                </SectionPlaceholder>
+                <Changelog />
               </div>
             </div>
 

@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import Loading from "./Loading";
 import AgentTerminal from "./AgentTerminal";
 import FinetuneDashboard from "./FinetuneDashboard";
+import Changelog from "./Changelog";
 
 export {
     Navbar,
@@ -12,4 +13,5 @@ export {
     Loading,
     AgentTerminal,
     FinetuneDashboard,
+    Changelog,
 };
