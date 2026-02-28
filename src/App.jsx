@@ -7,6 +7,7 @@ import {
   Hero,
   Footer,
   Loading,
+  AgentTerminal,
 } from "./components";
 
 const SectionPlaceholder = ({ id, title, children }) => (
@@ -63,13 +64,47 @@ const App = () => {
                 </SectionPlaceholder>
 
                 {/* Core Projects */}
-                <SectionPlaceholder id="coreProjects" title="Core Projects">
-                  <div className="container px-2 py-10 mx-auto mb-8 min-h-[200px] border border-dashed border-gray-700 rounded-xl mt-6 flex items-center justify-center">
-                    <p className="font-poppins font-normal text-dimWhite text-[16px]">
-                      v2.0 — 动态数据看板与项目卡片将在此呈现
-                    </p>
+                <section id="coreProjects" className="sm:py-16 py-10">
+                  <h1 className="font-poppins font-semibold ss:text-[55px] text-[45px] text-white ss:leading-[80px] leading-[80px]">
+                    Core Projects
+                  </h1>
+
+                  <div className="flex md:flex-row flex-col gap-8 md:gap-12 mt-10 items-start">
+                    {/* 左侧：文字介绍 */}
+                    <div className="flex-1 md:max-w-[400px]">
+                      <h2 className="font-poppins font-semibold text-[28px] ss:text-[32px] text-white leading-tight">
+                        建筑工程智能检测{" "}
+                        <span className="text-gradient">Agent</span>
+                      </h2>
+                      <p className="font-poppins font-normal text-dimWhite text-[15px] mt-2 mb-6 tracking-wide">
+                        LangChain 驱动的自动化建模闭环
+                      </p>
+                      <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[28px]">
+                        基于大模型微调与 Agent 架构，实现从自然语言指令到 OpenSees
+                        结构建模代码的端到端自动生成。引入 Reflection
+                        自修复机制和温度策略动态调节，将复杂工程建模任务的闭环成功率提升至
+                        92%+。
+                      </p>
+                      <div className="flex flex-wrap gap-3 mt-6">
+                        {["LangChain", "GPT-4 微调", "OpenSees", "Reflection Agent", "RAG"].map(
+                          (tag) => (
+                            <span
+                              key={tag}
+                              className="px-3 py-1 text-xs font-mono text-teal-200 border border-teal-200/30 rounded-full bg-teal-200/5"
+                            >
+                              {tag}
+                            </span>
+                          )
+                        )}
+                      </div>
+                    </div>
+
+                    {/* 右侧：终端模拟 */}
+                    <div className="flex-1 w-full min-w-0">
+                      <AgentTerminal />
+                    </div>
                   </div>
-                </SectionPlaceholder>
+                </section>
 
                 {/* Tech Insights */}
                 <SectionPlaceholder id="techInsights" title="Tech Insights">
