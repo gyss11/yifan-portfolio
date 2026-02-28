@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { close, parthmittal, menu } from "../assets";
+import { close, menu } from "../assets";
 import { navLinks } from "../constants";
 import { scrollToSection } from "../lib/helperFunctions";
 import { motion } from "framer-motion";
@@ -30,16 +30,10 @@ const Navbar = () => {
       transition={{ duration: 0.3, ease: "easeInOut" }}
       className="nav-styles sm:px-16 px-6"
     >
-      {/* Logo */}
-      <a href="#home">
-        <img
-          src={parthmittal}
-          alt="Parth Mittal"
-          className="w-[80px] h-[80px]"
-        />
+      <a href="#home" className="font-poppins font-bold text-[22px] text-white hover:text-teal-200 transition-colors">
+        Yifan.
       </a>
 
-      {/* List of links */}
       <ul className="list-none sm:flex hidden justify-end items-center flex-1 p-4">
         {navLinks.map((nav, index) => (
           <li
@@ -57,15 +51,11 @@ const Navbar = () => {
         ))}
       </ul>
 
-      {/* only for mobile devices, created separately */}
       <div className="sm:hidden flex flex-1 justify-end items-center">
-        {/* shows toggle icon based on its state */}
         <img
           src={toggle ? close : menu}
           alt="menu"
           className="w-[28px] h-[28px] object-contain"
-          // correct way to change state using the prev
-          // version of the same state using a callback function
           onClick={() => setToggle((prev) => !prev)}
         />
 
