@@ -23,7 +23,10 @@ const CustomTooltip = ({ active, payload, label }) => {
     <div className="bg-[#1e1e30] border border-gray-600/50 rounded-lg px-4 py-3 shadow-xl font-mono text-sm">
       <p className="text-white font-semibold mb-2">{item?.label || label}</p>
       {payload.map((entry) => (
-        <p key={entry.dataKey} style={{ color: entry.color }} className="mb-0.5">
+        <p
+          key={entry.dataKey}
+          className="mb-0.5 text-sm text-gray-400"
+        >
           {entry.dataKey === "baseline" ? "Baseline" : "微调后"}：{entry.value}%
         </p>
       ))}

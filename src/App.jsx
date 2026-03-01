@@ -148,7 +148,7 @@ const App = () => {
                         <span className="px-2.5 py-1 text-[11px] font-mono text-teal-200/80 border border-teal-200/20 rounded-full bg-teal-200/5">Data-Driven</span>
                       </div>
                       <p className="relative font-poppins font-normal text-dimWhite text-[15px] leading-[27px]">
-                        基于场景构建评测集，制定覆盖多维度的评测指标与 Badcase 分析流，驱动线上 RAG 准确率达 93%。
+                        基于场景构建评测集、评测方法，制定覆盖多维度的评测指标与 Badcase 分析流，驱动线上 RAG 准确率达 93%。
                       </p>
                     </div>
                     <div className="group rounded-xl border border-gray-700/50 bg-[#1a1a2e]/80 px-6 py-6 relative overflow-hidden hover:border-violet-500/40 transition-all duration-300 hover:shadow-lg hover:shadow-violet-500/10">
