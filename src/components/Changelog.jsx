@@ -6,7 +6,7 @@ const timelineData = [
     phase: "MVP 期",
     title: "产品定义与骨架重构",
     description:
-      "通过结构化全局 Prompt，引导 AI 剥离开源模板冗余代码，重构网站基础路由与个人品牌信息。体现最小可行性产品（MVP）的快速验证思维。",
+      "秉持 '不重复造轮子' 的敏捷理念，选用优质开源模板作为基座。通过结构化全局 Prompt 引导 AI 精准剥离底层冗余，从源头规避代码臃肿隐患。在极低成本下重构基础路由与个人品牌信息，体现 MVP 的快速验证思维。",
     tags: ["Prompt Engineering", "MVP 思维"],
     color: "from-sky-400 to-blue-500",
     dot: "bg-sky-400",

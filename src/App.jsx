@@ -154,14 +154,14 @@ const App = () => {
                     <div className="group rounded-xl border border-gray-700/50 bg-[#1a1a2e]/80 px-6 py-6 relative overflow-hidden hover:border-violet-500/40 transition-all duration-300 hover:shadow-lg hover:shadow-violet-500/10">
                       <div className="absolute -inset-[1px] rounded-xl bg-gradient-to-r from-violet-500/0 via-violet-500/0 to-purple-500/0 group-hover:from-violet-500/15 group-hover:to-purple-500/15 transition-all duration-300 pointer-events-none" />
                       <h3 className="relative font-poppins font-semibold text-white text-[20px] leading-snug mb-3">
-                        Agent 自修复与业务架构设计
+                        AI数据标注平台规划落地
                       </h3>
                       <div className="relative flex flex-wrap gap-2 mb-4">
-                        <span className="px-2.5 py-1 text-[11px] font-mono text-teal-200/80 border border-teal-200/20 rounded-full bg-teal-200/5">Agent Workflow</span>
-                        <span className="px-2.5 py-1 text-[11px] font-mono text-teal-200/80 border border-teal-200/20 rounded-full bg-teal-200/5">Architecture</span>
+                        <span className="px-2.5 py-1 text-[11px] font-mono text-teal-200/80 border border-teal-200/20 rounded-full bg-teal-200/5">Data Flywheel</span>
+                        <span className="px-2.5 py-1 text-[11px] font-mono text-teal-200/80 border border-teal-200/20 rounded-full bg-teal-200/5">B2B Product</span>
                       </div>
                       <p className="relative font-poppins font-normal text-dimWhite text-[15px] leading-[27px]">
-                        设计"生成→执行→修复→再评测→输出"的智能体闭环，引入 Reflection 兜底机制，保障复杂工程代码生成成功率达 92.1%。
+                        主导 AI 数据标注平台从 0 到 1 架构规划。设计基于 4 类角色隔离的标准化标注与多级质量审核流，为大模型训练持续输送高纯净度语料，构建底层业务数据飞轮。
                       </p>
                     </div>
                   </div>
