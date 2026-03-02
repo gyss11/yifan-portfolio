@@ -3,7 +3,7 @@ import {
 } from "react-icons/ai";
 
 export const resumeLink = "#";
-export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
+export const repoLink = "https://github.com/gyss11/yifan-portfolio";
 
 export const callToAction = "#";
 
@@ -34,7 +34,7 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillGithub,
-    link: "https://github.com",
+    link: "https://github.com/gyss11/yifan-portfolio",
   },
 ];
 
