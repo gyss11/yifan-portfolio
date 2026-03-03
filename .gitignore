@@ -23,6 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 .env
+readme_tmp.html
 # Local Netlify folder
 .netlify
 

@@ -1,6 +1,6 @@
 # 毛逸凡（Yifan Mao） | AI Product Manager Portfolio
 
-> **Live Preview:** [https://yifan-portfolio-gamma.vercel.app](https://yifan-portfolio-gamma.vercel.app)（海外部署，建议代理访问）
+> **Live Preview:** [https://yifan-portfolio-gamma.vercel.app](https://yifan-portfolio-gamma.vercel.app)（海外节点部署，建议代理访问）
 
 ---
 
