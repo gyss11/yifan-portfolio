@@ -1,6 +1,6 @@
 # 毛逸凡（Yifan Mao） | AI Product Manager Portfolio
 
-> **Live Preview:** [https://yifan-portfolio-gamma.vercel.app](https://yifan-portfolio-gamma.vercel.app)
+> **Live Preview:** [https://yifan-portfolio-gamma.vercel.app](https://yifan-portfolio-gamma.vercel.app)（海外部署，建议代理访问）
 
 ---
 
@@ -54,7 +54,7 @@
 解决方案：
 
 - **全链路价值导流 (Structural Narrative)：** 摒弃传统静态文档的平铺直叙，设计了从「关于我 (Profile) → 核心项目 (Agent Exhibit) → 技术沉淀 (Tech Insights) → 迭代记录 (Changelog)」的渐进式叙事逻辑，以结构化的信息架构展现 PM 的复杂信息降维能力。
-- **克制的情感化交互 (Aesthetic Finesse)：** 引入 Framer Motion 动效引擎，为页面切换与组件载入设计了丝滑且克制的物理动效；同时针对面试官碎片化查阅的移动端场景进行了像素级响应式优化，体现对"好产品"可用性与交互细节的极致把控。
+- **情感化交互 (Aesthetic Finesse)：** 引入 Framer Motion 动效引擎，为页面切换与组件载入设计了丝滑且克制的物理动效；同时针对面试官碎片化查阅的移动端场景进行了像素级响应式优化，体现对"好产品"可用性与交互细节的极致把控。
 
 > 优秀的 AI PM 不应仅满足于功能实现，更应具备对产品调性、信息密度与用户认知负荷的精准控制力。
 
